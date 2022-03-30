@@ -5,19 +5,19 @@ body {
   font-size: 14px;
 }
 
-h1 {
+.efectiv {
   color: white;
   background-color: #2f303a;
   line-height: 1.36;
 }
 
-h2 {
+.header-under-list {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
 }
 
-h3 {
+.image-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.188;
@@ -27,7 +27,7 @@ footer {
   background: #2f303a;
 }
 
-ul {
+.list-style {
   list-style-type: none;
 }
 
@@ -63,7 +63,7 @@ ul {
   background-color: blue;
 }
 
-ul > li > figure > figcaption > p {
+ul > li > figure > figcaption > .img-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
