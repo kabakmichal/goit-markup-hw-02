@@ -1,2 +1,2 @@
 # goit-markup-hw-01
-Home work 01 from 17.03.2022
+Home work 02 from 24.03.2022
