@@ -1,4 +1,4 @@
-body {
+.web-st {
   background: #ffffff;
   font-family: Roboto, Raleway;
   color: black;
@@ -23,7 +23,7 @@ body {
   line-height: 1.188;
 }
 
-footer {
+.foot-st {
   background: #2f303a;
 }
 
