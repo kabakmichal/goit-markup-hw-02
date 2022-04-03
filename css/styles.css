@@ -1,13 +1,26 @@
+:root{
+  --main-font: 'Roboto',
+  sans-serif;
+  --secondary-font: 'Raleway',
+  sans-serif;
+  --main-color: #757575;
+  --secondary-color: #2196f3;
+  --third-color: #fff;
+  --four-color: #212121;
+  --fifth-color: #2f303a;
+  --sixth-color: rgba(255, 255, 255, 0.6);
+}
+
 .web-st {
-  background: #ffffff;
-  font-family: Roboto, Raleway;
-  color: black;
+  background: var(--third-color);
+  font-family: var(--main-font), var(--secondary-font);
+  color: var(--four-color);
   font-size: 14px;
 }
 
 .efectiv {
-  color: white;
-  background-color: #2f303a;
+  color: var(--third-color);
+  background-color: var(--fifth-color);
   line-height: 1.36;
 }
 
@@ -24,7 +37,7 @@
 }
 
 .foot-st {
-  background: #2f303a;
+  background: var(--fifth-color);
 }
 
 .list-style {
@@ -33,20 +46,20 @@
 
 .link {
   text-decoration: none;
-  color: black;
+  color: var(--four-color);
   line-height: 1.143;
 }
 
 .link-footer {
   text-decoration: none;
-  color: #ffffff;
+  color: var(--third-color);
   opacity: 60%;
   line-height: 1.71;
 }
 
 .web {
   text-decoration: none;
-  color: blue;
+  color: var(--secondary-color);
 }
 
 .work-list-img {
@@ -60,10 +73,10 @@
 }
 
 .menu-button {
-  background-color: blue;
+  background-color: var(--secondary-color);
 }
 
-ul > li > figure > figcaption > .img-title {
+.img-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -71,12 +84,12 @@ ul > li > figure > figcaption > .img-title {
 
 .text {
   font-size: 16px;
-  color: #757575;
+  color: var(--main-color);
 }
 
-ul > li > figure > figcaption > .text {
+.text {
   font-size: 16px;
-  color: #757575;
+  color: var(--main-color);
   line-height: 1.88;
 }
 
@@ -98,7 +111,7 @@ ul > li > figure > figcaption > .text {
 .link-footer:focus,
 .buttons:hover,
 .buttons:focus {
-  color: rgb(167, 0, 0);
+  color: var(--secondary-color);
   opacity: 100%;
 }
 
@@ -108,7 +121,7 @@ ul > li > figure > figcaption > .text {
 
 .logo {
   font-size: 26px;
-  font-family: Raleway;
+  font-family: var(--secondary-font);
   line-height: 1.192;
 }
 
